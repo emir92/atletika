@@ -1,0 +1,109 @@
+
+.wrap {
+  height: 100px;
+  width : 100px;
+  position:relative;
+  overflow: hidden;
+  left: 25px;
+  top: 25px; 
+  transform: rotate(20deg);
+  background: #96190E;
+  transition:all 0.8s;
+}
+.logoHead{
+	height: 14px;
+	width: 14px;
+	position: absolute;
+	border-radius: 50%;
+	background: white;
+	overflow: hidden;
+	right: 44px;
+	top: 38px;
+}
+.logoBody{
+	height: 25px;
+    width: 7px;
+    position: absolute;
+    background: white;
+    top: 51px;
+    left: 46px;
+}
+.logoArmLefta
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+	transform: rotate(70deg);
+	top: 47px;
+	left: 38px;
+}
+.logoArmLeftb
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+    top: 55px;
+	left: 31px;
+}
+.logoArmRighta
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+	transform: rotate(70deg);
+	top: 54px;
+	left: 63px;
+}
+.logoArmRightb
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+	transform: rotate(-20deg);
+	top:  50px;
+	left: 54px;
+}
+.logoLegLefta
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+	transform: rotate(-20deg);
+	top: 74px;
+	left: 49px;
+}
+.logoLegLeftb
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+	transform: rotate(70deg);
+    top: 83px;
+	left: 45px;
+}
+.logoLegRighta
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+	transform: rotate(90deg);
+	top: 68px;
+	left: 56px;
+}
+.logoLegRightb
+{
+	height: 15px;
+    width: 3px;
+    position: absolute;
+    background: white;
+	transform: rotate(-20deg);
+	top: 74px;
+	left: 65px;
+}
