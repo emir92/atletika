@@ -1,0 +1,52 @@
+.atletika-logo,
+.atletika-logo *,
+.atletika-logo *:before,
+.atletika-logo *:after
+{
+	margin:0%;
+    padding:0%;
+    background:transparent;
+    border:0%;
+    outline:0%;
+    display:block;
+    text-align: center;
+	font-size: 2vw;
+    color: whitesmoke;
+	font-family: Comic Sans MS;
+	float:left;
+	
+}
+
+.atletika-logo
+{
+   display:block;
+   width: 12.6vw;
+   height: 18.0vw;
+   background-color: #96190E;;
+   border-radius:         0px 0px 50% 50%;
+}
+.atletika-box
+{
+	float:none;
+	margin:auto;
+	margin-top:20%;
+	display:block;
+	width: 5.0vw;
+	height:5.0vw;
+	border: 1vw solid whitesmoke;
+	border-bottom: hidden;
+}
+header
+{
+	margin:0;
+	display:flex;
+}
+header h1
+{
+	word-wrap: break-word;
+	margin:auto;
+	padding-top:5%;
+	font-size:60px;
+	font-family:Courier New;
+	text-align: center;
+}

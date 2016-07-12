@@ -1,0 +1,192 @@
+html{
+	background-color:orange;
+}
+.vijesti h1
+{
+	font-size:24px;
+	font-family:Time new roman;
+	text-align: center;
+}
+.vijesti h4
+{
+	
+	font-size:15px;
+	font-family:Time new roman;
+	text-align: left;
+}
+.vijesti p
+{
+	font-size:18px;
+	font-family:Time new roman;
+	text-align: left;
+}
+
+.vijesti img
+{
+	float:left;
+	height: 10vw;
+	width: 10vw;
+}
+#listavijesti
+{
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type:none;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1%;
+}
+
+.vijestilista
+{
+	width: 49%;
+	float: left;
+	border: solid black 1px;
+	margin: 3px;
+}
+
+.navbar{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	border-radius: 1% 1% 1% 1%;
+	background-color: darkblue;	
+	
+}
+.navbarlista{
+	float:left;
+	
+	border-radius: 20% 20% 20% 20%;
+	
+}
+.navbarlista a{
+	float: left;
+	display:block;
+	color:white;
+	font-weight:bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+.navbarlista a:hover{
+	background-color:red;
+	color: yellow;
+	border-radius: 30% 30% 30% 30%;
+}
+.aktivan{
+	float:left;
+}
+.aktivan a{
+	float: left;
+	display:block;
+	font-weight:bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+	background-color:red;
+	color: yellow;
+}
+table{
+	width:100%;
+	border-bottom:5px double black;
+	border-top:5px double black;
+	margin-top:1%;
+	margin-bottom:1%;
+	border-collapse: collapse;
+}
+table th
+{
+	border-bottom: 5px double black;
+	border-left:5px double black;
+	border-right:5px double black;
+	
+}
+table td{
+	border-bottom: 2px solid black;
+	border-left:5px double black;
+	border-right:5px double black;
+}
+.par{
+	background-color:blue;
+}
+.nepar{
+	background-color:red;
+}
+
+.kontakt{
+	margin-bottom:2%;
+	margin-top:2%;
+	border: 3px solid white;
+	background-color: lightblue;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1%;
+}
+.kontakt textarea{
+	width:95%;
+	height:30%
+}
+.kontakt .dugme{
+	border:1px solid black;
+	text-align:center;
+	width: 20%;
+	margin-left:40%;
+	margin-right:auto;
+}
+.linkovi
+{
+	list-style-type:none;
+}
+.linkovi li:hover{
+	list-style-image: url('../images/gun_tiny.jpg')
+}
+
+.izborVijesti{
+	list-style-type: none;
+	width:80%;
+	margin:0;
+	margin-left:10%;
+	margin-right:0%;
+	padding:0;
+	overflow: hidden;
+	border-radius: 1% 1% 1% 1%;
+	background-color: lightblue;	
+	
+}
+.user a{
+	float: right;
+	display:block;
+	color:white;
+	font-weight:bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+.user a:hover{
+	background-color:red;
+	color: yellow;
+	border-radius: 30% 30% 30% 30%;
+}
+.sort
+{
+	list-style-type:none;
+	width:100%;
+	margin-bottom:5%;
+	
+}
+.sort li 
+{
+	padding:1%;
+	float: left;
+	text-align:center;
+}
+.sort a{
+	float: left;
+	display:block;
+	font-weight:bold;
+	text-align: center;
+	padding: 1px 11px;
+	text-decoration:none;
+}
